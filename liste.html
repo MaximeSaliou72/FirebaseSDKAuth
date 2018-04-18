@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.css" />
+</head>
+
+<body>
+    <div class="listPerso">
+        <ul id="persoList">
+        </ul>
+        <form>
+            <input type='text' name='name' id="Name">
+            <button onclick="pushPerso()" type="button">Send Personnage</button>
+        </form>
+    </div>
+    <button onclick='logout()'>Logout</button>
+
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
